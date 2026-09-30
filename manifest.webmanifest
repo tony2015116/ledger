@@ -1,0 +1,16 @@
+{
+  "name": "时间账本",
+  "short_name": "时间账本",
+  "description": "按时薪衡量每天的时间，把习惯融入日常。",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E8ECF0",
+  "theme_color": "#1D2740",
+  "lang": "zh-CN",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
