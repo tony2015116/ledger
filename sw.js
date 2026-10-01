@@ -1,5 +1,5 @@
 // Offline support: the page is fetched fresh when online (so updates arrive right away), cache is the fallback.
-const CACHE = "time-ledger-v1";
+const CACHE = "time-ledger-v2";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
